@@ -1,0 +1,41 @@
+.header {
+  display: flex;
+  align-items: center;
+  height: 100px;
+  background-color: #0e0e0e;
+  padding: 30px 25px;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+}
+
+.nav-list-item {
+  margin-right: 10px;
+  color: white;
+}
+
+main {
+  color: rgb(250, 248, 248) ;
+  background-image: url(../assests/OIP.jpg);
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-size: cover;
+  background-size: auto;
+ 
+}
+body{
+    background-color: #21222A;
+}
+.facts-list{
+  margin-top: 46px;
+  max-width: 400px;
+}
+.facts-list > li{
+  margin-block: 10px;
+}
+.facts-list >li::marker{
+  color: rgb(38, 130, 161);
+  font-size: 1.5rem;
+}
